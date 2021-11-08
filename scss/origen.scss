@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+}
+
+$green: #47c420;
+$secondary-green: #93c63d;
+
+body{
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+.dflex--center{
+  display: flex;
+  justify-content: center;
+}
+.text--lead__space{
+  margin: 2rem 0;
+}
+.btn--green{
+  background-color: $green !important;
+  color: white !important;
+  &:hover {
+    background-color: $secondary-green !important;
+  }
+}
+.btn--outline__green{
+  border: 1px solid $green !important;
+  color: $green !important;
+  &:hover {
+    background-color: #93c63d !important;
+    color: white !important;
+  }
+}
+.main--img__animation{
+  animation: up-down 1.4s infinite ease-in-out alternate;
+}
+@keyframes up-down{
+  from{
+    transform: translatey(0px);
+  }
+  to{
+    transform: translatey(-20px);
+  }
+}
+
+/* FAQs */
+
+.bg--green{
+  background-color: $secondary-green !important;
+}
+.question--title__size{
+  font-size: 1.2rem;
+}
+
+/* Quotes */
+.carousel--space__bottom{
+  margin-bottom:6rem;
+}
+.carousel-indicators {
+    top: 90px;
+}
+.carousel-indicators [data-bs-target] {
+  background-color:black !important;
+}
+.carousel--text{
+  width: 80%;
+  text-align: center;
+}
+
+/* About */
+.first-line{
+  margin-top:2rem;
+}
