@@ -5,6 +5,7 @@
 
 $green: #47c420;
 $secondary-green: #93c63d;
+$margin-bottom: 4rem;
 
 body{
   font-family: 'Source Sans Pro', sans-serif !important;
@@ -54,7 +55,7 @@ body{
 
 /* Quotes */
 .carousel--space__bottom{
-  margin-bottom:6rem;
+  margin-bottom:$margin-bottom+2;
 }
 .carousel-indicators {
     top: 90px;

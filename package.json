@@ -268,5 +268,13 @@
     "yargs-parser": "^20.2.9",
     "y18n": "^4.0.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miziniak/coderhouse-desarrolloweb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miziniak/coderhouse-desarrolloweb/issues"
+  },
+  "homepage": "https://github.com/miziniak/coderhouse-desarrolloweb#readme",
   "description": ""
 }
