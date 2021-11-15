@@ -4,11 +4,21 @@
 }
 
 $green: #47c420;
+$red: #ff4262;
+$blue: #1e2060;
 $secondary-green: #93c63d;
 $margin-bottom: 4rem;
 
+
 body{
   font-family: 'Source Sans Pro', sans-serif !important;
+  color: $blue !important;
+}
+code{
+  color: inherit !important;
+}
+.custom-link{
+color: $green !important;
 }
 .dflex--center{
   display: flex;
@@ -19,6 +29,13 @@ body{
 }
 .btn--green{
   background-color: $green !important;
+  color: white !important;
+  &:hover {
+    background-color: $secondary-green !important;
+  }
+}
+.btn--red{
+  background-color: $red !important;
   color: white !important;
   &:hover {
     background-color: $secondary-green !important;
@@ -41,6 +58,73 @@ body{
   }
   to{
     transform: translatey(-20px);
+  }
+}
+
+.logo-icon{
+  margin-right: 0.5rem;
+}
+.small-card{
+  border:0 !important;
+  height: 290px;
+}
+.card-img{
+  background: url("../img/mi-play.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center;
+}
+.options{
+  list-style-type: none;
+  border-left: 1px solid #d3d3d3;
+}
+.container-options{
+  align-items: center;
+  padding:  1rem;
+}
+.options li{
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+}
+.img-options{
+  margin-right: 1rem;
+}
+.arrow-icon{
+  margin-right: 2rem;
+}
+sup {
+    top: -2.5em !important;
+    padding: 5px 10px;
+    background: #e6e6f6;
+}
+
+#custom-cards{
+  background-image: url("../img/dot.svg");
+  background-size: 30px;
+}
+
+.bi-gift-fill{
+  font-size: 14px;
+  position: relative;
+  top: -4px;
+  margin-right: 0.3rem;
+}
+.pricing-card-title{
+  color: $red;
+}
+
+.extra-space-left{
+  padding-left: 7rem !important;
+}
+@media (max-width: 400px) {
+  .extra-space-left{
+    padding-left: 1rem !important;
+  }
+  sup {
+    top: -0.5em !important;
+  }
+  .carousel-indicators {
+    top: 315px !important;
   }
 }
 
@@ -67,7 +151,20 @@ body{
   width: 80%;
   text-align: center;
 }
-
+.video-info{
+  justify-content: flex-end;
+  padding: 1rem;
+}
+.img-video{
+  margin-right: 0.5rem;
+}
+.link-video{
+  text-decoration: none;
+  color: white;
+}
+.exampleModalLabel{
+  color: $blue;
+}
 /* About */
 .first-line{
   margin-top:2rem;

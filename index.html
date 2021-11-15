@@ -4,13 +4,14 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Titulo de la página - Home</title>
+    <title>Convierte tu Playlist de Spotify en Cassette, CD o Vinilo - Home</title>
     <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
     <meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3"/>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/destino.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
   </head>
 
@@ -19,18 +20,19 @@
     <div class="container">
       <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
         <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-          <strong>CASSETTE</strong>
+          <img class="logo-icon" src="img/music-note.svg" width="25" alt=""> <strong>CASSETTE</strong>
         </a>
 
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
           <li><a href="faq.html" class="nav-link px-2 link-dark">FAQs</a></li>
-          <li><a href="about.html" class="nav-link px-2 link-dark">About</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Contact</a></li>
+          <li><a href="about.html" class="nav-link px-2 link-dark">Sobre CASSETTE</a></li>
+          <li><a href="idea.html" class="nav-link px-2 link-dark"><i class="bi bi-emoji-wink"></i> Ideas</a></li>
+          <li><a href="contact.html" class="nav-link px-2 link-dark">Contacto</a></li>
         </ul>
 
         <div class="col-md-3 text-end">
-          <button type="button" class="btn btn--green">Convertir Playlist</button>
+          <button type="button" class="btn btn--red">Convertir Playlist</button>
         </div>
       </header>
     </div>
@@ -38,26 +40,27 @@
     <div class="container my-5">
           <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
             <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-              <h1 class="display-4 fw-bold lh-1">Este es el título</h1>
-              <h3 class="lead text--lead__space">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+              <h1 class="display-4 fw-bold lh-1"><span style="color:#47c420;">Convierte tu Playlist</span> de Spotify en Cassette, CD o Vinilo <span style="font-size:0.75rem;"><sup>← NEW</sup></span></h1>
+              <h3 class="lead text--lead__space">Graba listas de spotify en tu formato favorito y resproduce tu música en cualquier lugar remoto del planeta. ¿Tal vez desde un coche viejo? o tal vez... <b>¡para regalar!</b></h3>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                <button type="button" class="btn btn--green btn-lg px-4 me-md-2">Convertir Playlist</button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch Modal</button>
+                <button type="button" class="btn btn--red btn-lg px-4 me-md-2">Convertir Playlist</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-gift-fill"></i> Regalar Playlist</button>
               </div>
               <!-- Modal -->
     					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     						<div class="modal-dialog">
     							<div class="modal-content">
     								<div class="modal-header">
-    									<h5 class="modal-title" id="exampleModalLabel">The Cosmos Awaits</h5>
+    									<h5 class="modal-title" id="exampleModalLabel"><i class="bi bi-gift-fill"></i> Regala música</h5>
     									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     								</div>
+
     								<div class="modal-body">
-    									Brain is the seed of intelligence are creatures of the cosmos Rig Veda encyclopaedia galactica white dwarf something incredible is waiting to be known.
+                      <img src="img/ejemplo-vinilo.png" alt="Ejemplo vinilo" width="100%">
+    									<p>Brain is the seed of intelligence are creatures of the cosmos Rig Veda encyclopaedia galactica white dwarf something incredible is waiting to be known.</p>
     								</div>
     								<div class="modal-footer">
     									<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-
     								</div>
     							</div>
     						</div>
@@ -72,46 +75,55 @@
         <!-- second section -->
 
       <div class="container px-4 py-5" id="custom-cards">
-      <h2 class="display-5 fw-bold text-center">How it Works</h2>
-
+      <h2 class="display-5 fw-bold text-center">Cómo funciona</h2>
       <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
         <div class="col">
-          <div class="card card-cover card-img h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Title belongs here</h2>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-photo-of-logo-16.png" alt="SEO content" width="32" height="32" class="rounded-circle">
+          <h4 ><strong>1.</strong> Elige tu playlist favorita en <img src="img/logo-spotify.png" alt="Logo Spotify" width="90"> </h4>
+          <p class="pb-2">Click en el icono <code>···</code> después selecciona <code>Compartir</code> y finalmente: <code>Copiar enlace a la lista</code></p>
+
+          <div class="card card-cover small-card card-img overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+            <div class="d-flex flex-column">
+              <ul class="d-flex list-unstyled mt-auto video-info">
+                <li class="img-video">
+                  <img src="img/youtube.svg" alt="Video tutorial" width="22" height="22">
                 </li>
                 <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                  <small>Playlist Name</small>
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                  <small>3h 23'</small>
+                  <a class="link-video" data-bs-toggle="modal" data-bs-target="#exampleVideo" href=""><small>Ver Video</small></a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div class="col">
-          <div class="card card-cover card-img h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Title belongs here</h2>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-photo-of-logo-16.png" alt="SEO content" width="32" height="32" class="rounded-circle">
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                  <small>Playlist Name</small>
-                </li>
-                <li class="d-flex align-items-center">
-                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                  <small>12h 45'</small>
-                </li>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleVideo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="img/video.gif" alt="" width="100%">
+                  <p class="pt-4">1. Click en el icono <code>···</code> después selecciona <code>Compartir</code> y finalmente: <code>Copiar enlace a la lista</code></p>
+                  <p class="pb-4">2. Pega el enlace en el <a class="custom-link" href=""> <code>formulario de compra</code></a> y recibe tu lista convertida en cassette, CD, vinilo o pendrive ¡tú eliges!'</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn--red btn-lg px-4 me-md-2">Convertir Playlist</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col extra-space-left">
+          <h4><strong>2.</strong> Convierte tu Playlist</h4>
+          <p class="pb-4">Pega el enlace en el <a class="custom-link" href=""> <code>formulario de compra</code></a> y recibe tu lista convertida en cassette, CD, vinilo o pendrive ¡tú eliges!'</p>
+          <div class="d-flex container-options">
+            <div class="">
+              <img class="arrow-icon" src="img/arrow-right.svg" alt="" width="50">
+            </div>
+            <div class="">
+              <ul class="options">
+                <li><img class="img-options" src="img/cassette.svg" alt="" width="40"> Cassette</li>
+                <li><img class="img-options" src="img/cd-burning.svg" alt="" width="40"> CD</li>
+                <li><img class="img-options" src="img/vinilo.svg" alt="" width="40"> Vinilo</li>
+                <li><img class="img-options" src="img/pendrive.svg" alt="" width="40"> Pendrive</li>
               </ul>
             </div>
           </div>
@@ -151,57 +163,66 @@
 
     <!-- pricing section -->
     <div class="container my-5 py-5">
-      <h2 class="pb-2 text-center">Pricing Plan (sección provisional)</h2>
+      <h2 class="pb-5 text-center">Selecciona tu opción favorita</h2>
       <main>
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="row row-cols-1 row-cols-md-4 mb-4 text-center">
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">Opción 1</h4>
+                <h4 class="my-0 fw-normal"><img class="img-options" src="img/cassette.svg" alt="" width="30"> Cassette</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                <h1 class="card-title pricing-card-title">5€</h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>10 users included</li>
-                  <li>2 GB of storage</li>
-                  <li>Email support</li>
-                  <li>Help center access</li>
+                  <li>3h 10'</li>
+                  <li>Lista de reproducción a mano</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn--outline__green">Select this option</button>
+                <button type="button" class="w-100 btn btn-lg btn--outline__green">Convertir en casette</button>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">Opción 2</h4>
+                <h4 class="my-0 fw-normal"><img class="img-options" src="img/cd-burning.svg" alt="" width="30"> CD</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                <h1 class="card-title pricing-card-title">5€</h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>20 users included</li>
-                  <li>10 GB of storage</li>
-                  <li>Priority email support</li>
-                  <li>Help center access</li>
+                  <li>4h 30'</li>
+                  <li>Lista impresa sobre cd</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn--outline__green">Select this option</button>
+                <button type="button" class="w-100 btn btn-lg btn--outline__green">Convertir en CD</button>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">Opción 3</h4>
+                <h4 class="my-0 fw-normal"><img class="img-options" src="img/pendrive.svg" alt="" width="30"> Pendrive</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                <h1 class="card-title pricing-card-title">30€</h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>30 users included</li>
-                  <li>15 GB of storage</li>
-                  <li>Phone and email support</li>
-                  <li>Help center access</li>
+                  <li>16 GB</li>
+                  <li>Diseño personalizado</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn--outline__green">Select this option</button>
+                <button type="button" class="w-100 btn btn-lg btn--outline__green">Convertir en pendrive</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal"><img class="img-options" src="img/vinilo.svg" alt="" width="30"> Vinilo <sub style="color:#ff4262; font-size:0.6rem;">TOP VENTAS</sub></h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">50€</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>5h 30'</li>
+                  <li>Diseño Personalizado</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn--green">Convertir en vinilo</button>
               </div>
             </div>
           </div>
@@ -211,11 +232,12 @@
 
     <!-- last CTA -->
     <div class="px-4 py-5 my-5 text-center">
-      <h2 class="display-5 fw-bold">Call to Action</h2>
+      <h2 class="display-5 fw-bold">Regala Música</h2>
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn--green btn-lg px-4 me-md-2">Convertir Playlist</button>
+          <button type="button" class="btn btn--red btn-lg px-4 me-md-2">Convertir Playlist</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-gift-fill"></i> Regalar Playlist</button>
         </div>
       </div>
     </div>
@@ -227,8 +249,9 @@
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
           <li class="nav-item"><a href="faq.html" class="nav-link px-2 text-muted">FAQs</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">Sobre CASSETTE</a></li>
+          <li class="nav-item"><a href="idea.html" class="nav-link px-2 text-muted"<i class="bi bi-emoji-wink"></i> >Ideas</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contacto</a></li>
         </ul>
         <p class="text-center text-muted">© 2021 CASSETTE, Inc</p>
       </footer>

@@ -3,7 +3,14 @@
   src: url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"); }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif !important; }
+  font-family: 'Source Sans Pro', sans-serif !important;
+  color: #1e2060 !important; }
+
+code {
+  color: inherit !important; }
+
+.custom-link {
+  color: #47c420 !important; }
 
 .dflex--center {
   display: flex;
@@ -16,6 +23,12 @@ body {
   background-color: #47c420 !important;
   color: white !important; }
   .btn--green:hover {
+    background-color: #93c63d !important; }
+
+.btn--red {
+  background-color: #ff4262 !important;
+  color: white !important; }
+  .btn--red:hover {
     background-color: #93c63d !important; }
 
 .btn--outline__green {
@@ -33,6 +46,66 @@ body {
     transform: translatey(0px); }
   to {
     transform: translatey(-20px); } }
+
+.logo-icon {
+  margin-right: 0.5rem; }
+
+.small-card {
+  border: 0 !important;
+  height: 290px; }
+
+.card-img {
+  background: url("../img/mi-play.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center; }
+
+.options {
+  list-style-type: none;
+  border-left: 1px solid #d3d3d3; }
+
+.container-options {
+  align-items: center;
+  padding: 1rem; }
+
+.options li {
+  padding: 0.5rem 0;
+  font-size: 1.5rem; }
+
+.img-options {
+  margin-right: 1rem; }
+
+.arrow-icon {
+  margin-right: 2rem; }
+
+sup {
+  top: -2.5em !important;
+  padding: 5px 10px;
+  background: #e6e6f6; }
+
+#custom-cards {
+  background-image: url("../img/dot.svg");
+  background-size: 30px; }
+
+.bi-gift-fill {
+  font-size: 14px;
+  position: relative;
+  top: -4px;
+  margin-right: 0.3rem; }
+
+.pricing-card-title {
+  color: #ff4262; }
+
+.extra-space-left {
+  padding-left: 7rem !important; }
+
+@media (max-width: 400px) {
+  .extra-space-left {
+    padding-left: 1rem !important; }
+  sup {
+    top: -0.5em !important; }
+  .carousel-indicators {
+    top: 315px !important; } }
 
 /* FAQs */
 .bg--green {
@@ -54,6 +127,20 @@ body {
 .carousel--text {
   width: 80%;
   text-align: center; }
+
+.video-info {
+  justify-content: flex-end;
+  padding: 1rem; }
+
+.img-video {
+  margin-right: 0.5rem; }
+
+.link-video {
+  text-decoration: none;
+  color: white; }
+
+.exampleModalLabel {
+  color: #1e2060; }
 
 /* About */
 .first-line {
