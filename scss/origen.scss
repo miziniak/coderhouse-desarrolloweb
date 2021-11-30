@@ -17,8 +17,25 @@ body{
 code{
   color: inherit !important;
 }
+/* mobile nav */
+@media (max-width: 400px) {
+  .nav{
+    flex-direction: column;
+  }
+  .cta-nav{
+    text-align: left !important;
+    padding-left: 1.5rem;
+  }
+}
+/* end mobile nav*/
+.cta-nav{
+  text-align: right;
+}
 .custom-link{
 color: $green !important;
+}
+.link-secondary{
+  color: $red !important;
 }
 .dflex--center{
   display: flex;
@@ -126,8 +143,19 @@ sup {
   .carousel-indicators {
     top: 315px !important;
   }
+  .small-card {
+    height: 180px;
+  }
 }
-
+.modal-description{
+  padding:2rem 2rem 0 2rem;
+}
+.card{
+  border: none !important;
+}
+.card-body {
+  padding-bottom: 2rem !important;
+}
 /* FAQs */
 
 .bg--green{
@@ -142,7 +170,7 @@ sup {
   margin-bottom:$margin-bottom+2;
 }
 .carousel-indicators {
-    top: 90px;
+    top: 160px;
 }
 .carousel-indicators [data-bs-target] {
   background-color:black !important;
@@ -164,6 +192,16 @@ sup {
 }
 .exampleModalLabel{
   color: $blue;
+}
+.autor-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-name{
+  font-size:0.8rem;
+  color: #828493;
+  margin-left: 1rem;
 }
 /* About */
 .first-line{

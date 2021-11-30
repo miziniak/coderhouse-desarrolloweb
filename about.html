@@ -5,44 +5,55 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Convierte tu Playlist de Spotify en Cassette, CD o Vinilo - About</title>
-    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-    <meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3"/>
+    <meta name="description" content="Convierte tu Playlist de Spotify en Cassette, CD , pendrive o Vinilo"/>
+    <meta name="keywords" content="playlist spotify en vinilo, playlist spotify en cassette, playlist spotify en cd, playlist spotify en pendrive"/>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/destino.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6EY1TLWYEG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6EY1TLWYEG');
+    </script>
   </head>
 
 
   <body>
     <div class="container">
-      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mb-4 py-3 border-bottom">
-        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-          <strong>CASSETTE</strong>
+      <nav class="navbar navbar-expand-lg navbar-light py-3 mb-4 border-bottom">
+        <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+          <img class="logo-icon" src="img/music-note.svg" width="25" alt="logo"> <strong>RETROFY</strong>
         </a>
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="index.html" class="nav-link px-2 link-dark">Home</a></li>
-          <li><a href="faq.html" class="nav-link px-2 link-dark">FAQs</a></li>
-          <li><a href="about.html" class="nav-link px-2 link-secondary">Sobre CASSETTE</a></li>
-          <li><a href="idea.html" class="nav-link px-2 link-dark"><i class="bi bi-emoji-wink"></i> Ideas</a></li>
-          <li><a href="contact.html" class="nav-link px-2 link-dark">Contacto</a></li>
-        </ul>
-        <div class="col-md-3 text-end">
-          <button type="button" class="btn btn--red">Convertir Playlist</button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index.html" class="nav-link px-4 link-dark">Home</a></li>
+            <li><a href="faq.html" class="nav-link px-4 link-dark">FAQs</a></li>
+            <li><a href="about.html" class="nav-link px-4 link-secondary">Sobre RETROFY</a></li>
+            <li><a href="idea.html" class="nav-link px-4 link-dark"><i class="bi bi-emoji-wink"></i> Ideas</a></li>
+            <li><a href="contact.html" class="nav-link px-4 link-dark">Contacto</a></li>
+          </ul>
+          <div class="col-md-5 cta-nav">
+            <button onclick="window.location.href='https://pie2re.typeform.com/to/vsbMcc7b'" type="button" class="btn btn--red">Convertir Playlist</button>
+          </div>
         </div>
-      </header>
+      </nav>
     </div>
 
 
 
-
-
-    <!-- last CTA -->
     <div class="px-4 py-5 my-5 text-center">
-      <h1 class="display-5 fw-bold"><span style="color:#47c420;">Convierte tu Playlist</span> de Spotify<br> en Cassette, CD o Vinilo <span style="font-size:0.75rem;"><sup>← NEW</sup></span></h1>
+      <h1 class="display-5 fw-bold"><span style="color:#47c420;">Convierte tu Playlist</span> de Spotify<br> en Cassette, CD o Vinilo</h1>
       <div class="col-lg-10 mx-auto">
-        <h3 class="lead mb-4">Graba listas de spotify en tu formato favorito y resproduce tu música en cualquier lugar remoto del planeta. ¿Tal vez desde un coche viejo? o tal vez... <b>¡para regalar!</b></h3>
+        <h3 class="lead my-4">Graba listas de spotify en tu formato favorito y resproduce tu música en cualquier lugar remoto del planeta. ¿Tal vez desde una radio vieja? ¿un tocadiscos? o tal vez... <b>¡para regalar!</b></h3>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
           <button type="button" class="btn btn--red btn-lg px-4 me-md-2">Convertir Playlist</button>
           <button type="button" class="btn btn-outline-secondary btn-lg px-4" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-gift-fill"></i> Regalar Playlist</button>
@@ -52,16 +63,17 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel"><i class="bi bi-gift-fill"></i> Regala música</h5>
+                <h5 class="modal-title" id="exampleModalLabel"><i class="bi bi-gift-fill"></i> ¡Regala música!</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
+
               <div class="modal-body">
-                <img src="img/ejemplo-vinilo.png" alt="Ejemplo vinilo" width="100%">
-                Brain is the seed of intelligence are creatures of the cosmos Rig Veda encyclopaedia galactica white dwarf something incredible is waiting to be known.
+                <img src="img/ejemplo-vinilo.png" alt="playlist spotify en vinilo" width="100%">
+                <p class="modal-description"><b>Elige vuestra playlist favorita de <img src="img/logo-spotify.png" alt="Logo Spotify" width="90"> y conviertela en un regalo inolvidable.</b><br>
+                Opciones: Cassete, CD, Pendrive o Vinilo</p>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-
+                <button onclick="window.location.href='https://pie2re.typeform.com/to/vsbMcc7b'" type="button" class="btn btn-primary" data-bs-dismiss="modal">Realizar pedido</button>
               </div>
             </div>
           </div>
@@ -70,17 +82,17 @@
     </div>
 
 
-
+    <!-- last CTA -->
     <div class="container my-5">
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead first-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p class="lead">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="featurette-heading">'Revival' <span class="text-muted">de los formatos físicos.</span></h2>
+        <p class="lead first-line">Saca tus mejores canciones de la nube y vuelve a tener en tus manos la banda sonora de tu vida, para siempre, sin importar a dónde nos lleve la tecnología.</p>
+        <p class="lead">No importa en qué década se haya quedado atrapado vuestro equipo de sonido, con RETROFY podrás revivirlo para escuchar la mejor selección musical que conocemos: la tuya.</p>
+        <img class="mt-4" src="img/trusted.png" alt="Trusted shop" width="180">
       </div>
       <div class="col-md-5">
-          <img class="main--img__animation" src="img/main-img.png" alt="SEO content" width="80%">
+          <img class="main--img__animation" src="img/main-img.png" alt="Convierte playlist de spotify img" width="80%">
       </div>
     </div>
     </div>
@@ -89,18 +101,22 @@
     <div class="container">
       <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-          <li class="nav-item"><a href="faq.html" class="nav-link px-2 text-muted">FAQs</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">Sobre CASSETTE</a></li>
-          <li class="nav-item"><a href="idea.html" class="nav-link px-2 text-muted"><i class="bi bi-emoji-wink"></i> Ideas</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contacto</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link px-4 text-muted">Home</a></li>
+          <li class="nav-item"><a href="faq.html" class="nav-link px-4 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link px-4 text-muted">Sobre RETROFY</a></li>
+          <li class="nav-item"><a href="idea.html" class="nav-link px-4 text-muted"><i class="bi bi-emoji-wink"></i> Ideas</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link px-4 text-muted">Contacto</a></li>
         </ul>
-        <p class="text-center text-muted">© 2021 CASSETTE, Inc</p>
+        <p class="text-center text-muted">© 2021 RETROFY, Inc</p>
       </footer>
     </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 
 
   </body>

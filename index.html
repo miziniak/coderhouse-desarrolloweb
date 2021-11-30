@@ -5,45 +5,60 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Convierte tu Playlist de Spotify en Cassette, CD o Vinilo - Home</title>
-    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-    <meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3"/>
+    <meta name="description" content="Convierte tu Playlist de Spotify en Cassette, CD , pendrive o Vinilo"/>
+    <meta name="keywords" content="playlist spotify en vinilo, playlist spotify en cassette, playlist spotify en cd, playlist spotify en pendrive"/>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/destino.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6EY1TLWYEG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6EY1TLWYEG');
+    </script>
+
   </head>
 
 
   <body>
     <div class="container">
-      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-          <img class="logo-icon" src="img/music-note.svg" width="25" alt=""> <strong>CASSETTE</strong>
+      <nav class="navbar navbar-expand-lg navbar-light py-3 mb-4 border-bottom">
+        <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+          <img class="logo-icon" src="img/music-note.svg" width="25" alt="logo"> <strong>RETROFY</strong>
         </a>
-
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-          <li><a href="faq.html" class="nav-link px-2 link-dark">FAQs</a></li>
-          <li><a href="about.html" class="nav-link px-2 link-dark">Sobre CASSETTE</a></li>
-          <li><a href="idea.html" class="nav-link px-2 link-dark"><i class="bi bi-emoji-wink"></i> Ideas</a></li>
-          <li><a href="contact.html" class="nav-link px-2 link-dark">Contacto</a></li>
-        </ul>
-
-        <div class="col-md-3 text-end">
-          <button type="button" class="btn btn--red">Convertir Playlist</button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-4 link-secondary">Home</a></li>
+            <li><a href="faq.html" class="nav-link px-4 link-dark">FAQs</a></li>
+            <li><a href="about.html" class="nav-link px-4 link-dark">Sobre RETROFY</a></li>
+            <li><a href="idea.html" class="nav-link px-4 link-dark"><i class="bi bi-emoji-wink"></i> Ideas</a></li>
+            <li><a href="contact.html" class="nav-link px-4 link-dark">Contacto</a></li>
+          </ul>
+          <div class="col-md-5 cta-nav">
+            <button onclick="window.location.href='https://pie2re.typeform.com/to/vsbMcc7b'" type="button" class="btn btn--red">Convertir Playlist</button>
+          </div>
         </div>
-      </header>
+      </nav>
     </div>
+
+
     <!-- main section -->
     <div class="container my-5">
           <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
             <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
               <h1 class="display-4 fw-bold lh-1"><span style="color:#47c420;">Convierte tu Playlist</span> de Spotify en Cassette, CD o Vinilo <span style="font-size:0.75rem;"><sup>← NEW</sup></span></h1>
-              <h3 class="lead text--lead__space">Graba listas de spotify en tu formato favorito y resproduce tu música en cualquier lugar remoto del planeta. ¿Tal vez desde un coche viejo? o tal vez... <b>¡para regalar!</b></h3>
+              <h3 class="lead text--lead__space">Saca tus mejores canciones de la nube y vuelve a tener en tus manos la banda sonora de tu vida, para siempre, sin importar a dónde nos lleve la tecnología.</h3>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                <button type="button" class="btn btn--red btn-lg px-4 me-md-2">Convertir Playlist</button>
+                <button onclick="window.location.href='https://pie2re.typeform.com/to/vsbMcc7b'" type="button" class="btn btn--red btn-lg px-4 me-md-2">Convertir Playlist</button>
                 <button type="button" class="btn btn-outline-secondary btn-lg px-4" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-gift-fill"></i> Regalar Playlist</button>
               </div>
               <!-- Modal -->
@@ -51,28 +66,29 @@
     						<div class="modal-dialog">
     							<div class="modal-content">
     								<div class="modal-header">
-    									<h5 class="modal-title" id="exampleModalLabel"><i class="bi bi-gift-fill"></i> Regala música</h5>
+    									<h5 class="modal-title" id="exampleModalLabel"><i class="bi bi-gift-fill"></i> ¡Regala música!</h5>
     									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     								</div>
 
     								<div class="modal-body">
-                      <img src="img/ejemplo-vinilo.png" alt="Ejemplo vinilo" width="100%">
-    									<p>Brain is the seed of intelligence are creatures of the cosmos Rig Veda encyclopaedia galactica white dwarf something incredible is waiting to be known.</p>
+                      <img src="img/ejemplo-vinilo.png" alt="playlist spotify en vinilo" width="100%">
+    									<p class="modal-description"><b>Elige vuestra playlist favorita de <img src="img/logo-spotify.png" alt="Logo Spotify" width="90"> y conviertela en un regalo inolvidable.</b><br>
+                      Opciones: Cassete, CD, Pendrive o Vinilo</p>
     								</div>
     								<div class="modal-footer">
-    									<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+    									<button onclick="window.location.href='https://pie2re.typeform.com/to/vsbMcc7b'" type="button" class="btn btn-primary" data-bs-dismiss="modal">Realizar pedido</button>
     								</div>
     							</div>
     						</div>
     					</div>
             </div>
             <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden">
-                <img class="main--img__animation" src="img/main-img.png" alt="SEO content" width="100%">
+                <img class="main--img__animation" src="img/main-img.png" alt="Convierte playlist de spotify img" width="100%">
             </div>
           </div>
 
 
-        <!-- second section -->
+      <!-- second section -->
 
       <div class="container px-4 py-5" id="custom-cards">
       <h2 class="display-5 fw-bold text-center">Cómo funciona</h2>
@@ -100,12 +116,12 @@
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-body">
-                <img src="img/video.gif" alt="" width="100%">
+                <img src="img/video.gif" alt="Convierte playlist de spotify img" width="100%">
                   <p class="pt-4">1. Click en el icono <code>···</code> después selecciona <code>Compartir</code> y finalmente: <code>Copiar enlace a la lista</code></p>
-                  <p class="pb-4">2. Pega el enlace en el <a class="custom-link" href=""> <code>formulario de compra</code></a> y recibe tu lista convertida en cassette, CD, vinilo o pendrive ¡tú eliges!'</p>
+                  <p class="pb-4">2. Pega el enlace en el <a class="custom-link" href="https://pie2re.typeform.com/to/vsbMcc7b"> <code>formulario de compra</code></a> y recibe tu lista convertida en cassette, CD, vinilo o pendrive ¡tú eliges!'</p>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn--red btn-lg px-4 me-md-2">Convertir Playlist</button>
+                <button onclick="window.location.href='https://pie2re.typeform.com/to/vsbMcc7b'" type="button" class="btn btn--red btn-lg px-4 me-md-2">Convertir Playlist</button>
               </div>
             </div>
           </div>
@@ -113,17 +129,17 @@
 
         <div class="col extra-space-left">
           <h4><strong>2.</strong> Convierte tu Playlist</h4>
-          <p class="pb-4">Pega el enlace en el <a class="custom-link" href=""> <code>formulario de compra</code></a> y recibe tu lista convertida en cassette, CD, vinilo o pendrive ¡tú eliges!'</p>
+          <p class="pb-4">Pega el enlace en el <a class="custom-link" href="https://pie2re.typeform.com/to/vsbMcc7b"> <code>formulario de compra</code></a> y recibe tu lista convertida en cassette, CD, vinilo o pendrive ¡tú eliges!'</p>
           <div class="d-flex container-options">
             <div class="">
-              <img class="arrow-icon" src="img/arrow-right.svg" alt="" width="50">
+              <img class="arrow-icon" src="img/arrow-right.svg" alt="Convierte playlist de spotify img" width="50">
             </div>
             <div class="">
               <ul class="options">
-                <li><img class="img-options" src="img/cassette.svg" alt="" width="40"> Cassette</li>
-                <li><img class="img-options" src="img/cd-burning.svg" alt="" width="40"> CD</li>
-                <li><img class="img-options" src="img/vinilo.svg" alt="" width="40"> Vinilo</li>
-                <li><img class="img-options" src="img/pendrive.svg" alt="" width="40"> Pendrive</li>
+                <li><img class="img-options" src="img/cassette.svg" alt="cassette" width="40"> Cassette</li>
+                <li><img class="img-options" src="img/cd-burning.svg" alt="audio-cd" width="40"> CD</li>
+                <li><img class="img-options" src="img/vinilo.svg" alt="vinilo" width="40"> Vinilo</li>
+                <li><img class="img-options" src="img/pendrive.svg" alt="pendrive" width="40"> Pendrive</li>
               </ul>
             </div>
           </div>
@@ -135,23 +151,22 @@
 
     <!-- quotes -->
     <div class="px-4 text-center">
-        <h2 class="display-5 fw-bold">User Quotes</h2>
+        <h2 class="display-5 fw-bold">Lo que dicen de nosotros...</h2>
     <section class="dflex--center carousel--space__bottom">
 			<div id="carouselExampleIndicators" class="carousel slide carousel--text" data-bs-ride="carousel">
-				<div class="carousel-indicators">
-					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-				</div>
+
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<p class="lead mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+						<p class="lead my-4">"Nunca imaginé que podía ser tan fácil hacer sonar mis canciones favoritas en viejo radiocasette del coche. ¡Gracias a RETROFY ahora he vuelto a cantar de camino al trabajo!"</p>
+            <span class="autor-container"><img src="img/user-1.png" width="50" alt="Canta en tu coche"><p class="user-name"> Hugo Ramón Mateo</p></span>
 					</div>
 					<div class="carousel-item">
-						<p class="lead mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+						<p class="lead my-4">"Me regaló un vinilo con nuestra foto de bodas, con curiosidad lo puse en el tocadiscos y allí estaban todos los temazos que bailamos en la noche más especial de nuestras vidas. No puedo pensar en un regalo de aniversario más emocionante."</p>
+            <span class="autor-container"><img src="img/user-2.png" width="50" alt="el mejor regalo de boda"><p class="user-name"> Susana y Manuel</p></span>
 					</div>
 					<div class="carousel-item">
-						<p class="lead mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+						<p class="lead my-4">"Si tú también tienes el típico amigo retro que no quiere saber nada de tecnologías pero que sigue esperando un buen regalo de cumpleaños, estás de suerte, este año ¡vas a poder sorprenderle!"</p>
+            <span class="autor-container"><img src="img/user-3.png" width="50" alt="el mejor regalo de boda"><p class="user-name"> Marina y el amigo 'retro'</p></span>
 					</div>
 				</div>
 
@@ -169,60 +184,60 @@
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal"><img class="img-options" src="img/cassette.svg" alt="" width="30"> Cassette</h4>
+                <h4 class="my-0 fw-normal"><img class="img-options" src="img/cassette.svg" alt="cassette" width="30"> Cassette</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">5€</h1>
+                <h1 class="card-title pricing-card-title">15€</h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>3h 10'</li>
+                  <li>60 minutos por cara</li>
                   <li>Lista de reproducción a mano</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn--outline__green">Convertir en casette</button>
+                <button onclick="window.location.href='https://pie2re.typeform.com/to/vsbMcc7b'" type="button" class="w-100 btn btn-lg btn--outline__green">Convertir en casette</button>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal"><img class="img-options" src="img/cd-burning.svg" alt="" width="30"> CD</h4>
+                <h4 class="my-0 fw-normal"><img class="img-options" src="img/cd-burning.svg" alt="audio-cd" width="30"> audio-CD</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">5€</h1>
+                <h1 class="card-title pricing-card-title">15€</h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>4h 30'</li>
-                  <li>Lista impresa sobre cd</li>
+                  <li>74-80 minutos. 120mm</li>
+                  <li>Personalización (galletas y carpeta)</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn--outline__green">Convertir en CD</button>
+                <button onclick="window.location.href='https://pie2re.typeform.com/to/vsbMcc7b'" type="button" class="w-100 btn btn-lg btn--outline__green">Convertir en audio-CD</button>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal"><img class="img-options" src="img/pendrive.svg" alt="" width="30"> Pendrive</h4>
+                <h4 class="my-0 fw-normal"><img class="img-options" src="img/pendrive.svg" alt="pendrive" width="30"> Pendrive</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">30€</h1>
+                <h1 class="card-title pricing-card-title"><span style="font-size:16px; color:grey;">desde</span> 40€</h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>16 GB</li>
+                  <li>16 GB, 32 GB o 128 GB </li>
                   <li>Diseño personalizado</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn--outline__green">Convertir en pendrive</button>
+                <button onclick="window.location.href='https://pie2re.typeform.com/to/vsbMcc7b'" type="button" class="w-100 btn btn-lg btn--outline__green">Convertir en pendrive</button>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal"><img class="img-options" src="img/vinilo.svg" alt="" width="30"> Vinilo <sub style="color:#ff4262; font-size:0.6rem;">TOP VENTAS</sub></h4>
+                <h4 class="my-0 fw-normal"><img class="img-options" src="img/vinilo.svg" alt="vinilo" width="30"> Vinilo <sub style="color:#ff4262; font-size:0.6rem;">TOP VENTAS</sub></h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">50€</h1>
+                <h1 class="card-title pricing-card-title"><span style="font-size:16px; color:grey;">desde</span> 75€</h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>5h 30'</li>
-                  <li>Diseño Personalizado</li>
+                  <li>45 min aprox. a 33 RPM</li>
+                  <li>Personalización (galletas y carpeta)</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn--green">Convertir en vinilo</button>
+                <button onclick="window.location.href='https://pie2re.typeform.com/to/vsbMcc7b'" type="button" class="w-100 btn btn-lg btn--green">Convertir en vinilo</button>
               </div>
             </div>
           </div>
@@ -232,11 +247,12 @@
 
     <!-- last CTA -->
     <div class="px-4 py-5 my-5 text-center">
-      <h2 class="display-5 fw-bold">Regala Música</h2>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <h2 class="display-5 fw-bold">'Revival' de los formatos físicos</h2>
+      <div class="col-lg-10 mx-auto">
+        <p class="lead mb-4">No importa en qué década se haya quedado atrapado vuestro equipo de sonido, con RETROFY podrás revivirlo para escuchar la mejor selección musical que conocemos: la tuya.
+        </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn--red btn-lg px-4 me-md-2">Convertir Playlist</button>
+          <button onclick="window.location.href='https://pie2re.typeform.com/to/vsbMcc7b'" type="button" class="btn btn--red btn-lg px-4 me-md-2">Convertir Playlist</button>
           <button type="button" class="btn btn-outline-secondary btn-lg px-4" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-gift-fill"></i> Regalar Playlist</button>
         </div>
       </div>
@@ -247,18 +263,21 @@
     <div class="container">
       <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-          <li class="nav-item"><a href="faq.html" class="nav-link px-2 text-muted">FAQs</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">Sobre CASSETTE</a></li>
-          <li class="nav-item"><a href="idea.html" class="nav-link px-2 text-muted"<i class="bi bi-emoji-wink"></i> >Ideas</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link px-4 text-muted">Home</a></li>
+          <li class="nav-item"><a href="faq.html" class="nav-link px-4 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link px-4 text-muted">Sobre RETROFY</a></li>
+          <li class="nav-item"><a href="idea.html" class="nav-link px-4 text-muted"<i class="bi bi-emoji-wink"></i> Ideas</a></li>
           <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contacto</a></li>
         </ul>
-        <p class="text-center text-muted">© 2021 CASSETTE, Inc</p>
+        <p class="text-center text-muted">© 2021 RETROFY, Inc</p>
       </footer>
     </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 
